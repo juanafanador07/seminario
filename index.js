@@ -1,10 +1,13 @@
+require("dotenv").config();
 const express = require("express");
 const helmet = require("helmet");
 const app = express();
-const port = 3000;
 
 // Modify HTTP-Headers
 app.use(helmet());
+
+// Connect to database
+require("./database");
 
 //Router Imports
 // WEB
@@ -22,6 +25,6 @@ app.use((req, res) => {
 });
 
 // Init the server
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+app.listen(process.env.PORT, () => {
+    console.log(`Server running on port ${process.env.PORT}`);
 });
