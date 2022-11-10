@@ -3,12 +3,27 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const JsonMinimizerPlugin = require("json-minimizer-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     context: path.resolve(__dirname, "./src"),
-    entry: {},
+    entry: {
+        home: {
+            import: [
+                "./assets/js/scroll.js",
+                "./assets/js/aos.js",
+                "./assets/js/header.js",
+                "./assets/js/loader.js",
+                "./assets/css/main.css",
+            ],
+        },
+        store: {
+            import: ["./assets/js/store.js"],
+        },
+    },
     output: {
         path: path.resolve(__dirname, "./dist"),
+        filename: "./assets/js/[name]-[contenthash].js",
     },
     plugins: [
         new CleanWebpackPlugin(),
@@ -25,14 +40,17 @@ module.exports = {
             get filename() {
                 return path.resolve("./dist", this.template);
             },
-            chunks: [],
+            chunks: ["home"],
         }),
         new HtmlWebpackPlugin({
             template: "./store/index.html",
             get filename() {
                 return path.resolve("./dist", this.template);
             },
-            chunks: [],
+            chunks: ["store"],
+        }),
+        new MiniCssExtractPlugin({
+            filename: "./assets/css/[name]-[contenthash].css",
         }),
     ],
     module: {
@@ -49,21 +67,24 @@ module.exports = {
                         presets: ["@babel/preset-env"],
                     },
                 },
-                generator: {
-                    filename: "./assets/js/[hash]-[name].min[ext]",
-                },
             },
             {
                 test: /\.css$/i,
-                loader: "postcss-loader",
-                options: {
-                    postcssOptions: {
-                        plugins: [require("cssnano"), require("autoprefixer")],
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            postcssOptions: {
+                                plugins: [
+                                    require("cssnano"),
+                                    require("autoprefixer"),
+                                ],
+                            },
+                        },
                     },
-                },
-                generator: {
-                    filename: "./assets/css/[hash]-[name].min[ext]",
-                },
+                ],
             },
             {
                 test: /\.(jpe?g|png|webp)$/i,
