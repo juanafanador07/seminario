@@ -12,6 +12,7 @@
     --color-default: #000000;
     --color-primary: #c177e4;
     --color-secondary: #37373f;
+    --color-primary-darken: #a365c0;
 }
 
 /* Smooth scroll behavior */
@@ -306,6 +307,10 @@ section {
 .header .btn-book-a-table:focus:hover {
     color: #fff;
     background: rgba(206, 18, 18, 0.8);
+}
+
+.header-categories > li > a {
+    color: var(--color-primary);
 }
 
 section {
@@ -1230,36 +1235,12 @@ section {
     transition: 0.5s;
     color: #fff;
     background: var(--color-primary);
-    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+    box-shadow: 0 8px 28px rgba(159, 18, 206, 0.2);
 }
 
 .hero .btn-book-a-table:hover {
     background: rgba(206, 18, 18, 0.8);
     box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
-}
-
-.hero .btn-watch-video {
-    font-size: 16px;
-    transition: 0.5s;
-    margin-left: 25px;
-    color: var(--font-secondary);
-    font-weight: 600;
-}
-
-.hero .btn-watch-video i {
-    color: var(--color-primary);
-    font-size: 32px;
-    transition: 0.3s;
-    line-height: 0;
-    margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-    color: var(--color-primary);
-}
-
-.hero .btn-watch-video:hover i {
-    color: rgba(206, 18, 18, 0.8);
 }
 
 @media (max-width: 640px) {
@@ -1361,4 +1342,28 @@ section {
 
 .footer .credits a {
     color: #fff;
+}
+
+/* Productos Tienda */
+.product-card {
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.product-card img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    margin: 0.5rem auto;
+    border-radius: 1rem;
+}
+
+.product-card a {
+    border-radius: 0.5rem;
+    background: var(--color-primary);
+    border: none;
+}
+
+.product-card a:hover {
+    background: var(--color-primary-darken);
 }

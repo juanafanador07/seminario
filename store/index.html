@@ -1,15 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>JJ Store | Tienda</title>
+
+        <!-- Favicons -->
+        <link href="/assets/img/logo.png" rel="icon" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
+        <!-- Main CSS File -->
+        <link href="/assets/css/main.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>Pagina Store</h1>
+        <!-- ======= Header ======= -->
+        <header id="header" class="header fixed-top d-flex align-items-center">
+            <div
+                class="container d-flex align-items-center justify-content-between"
+            >
+                <a
+                    href="/"
+                    class="logo d-flex align-items-center me-auto me-lg-0"
+                >
+                    <img src="/assets/img/logo.png" alt="" />
+                    <h1>JJ Store<span>.</span></h1>
+                </a>
 
-        <div class="productos"></div>
-        <script src="../assets/js/store.js" type="module"></script>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a href="/#hero">Inicio</a></li>
+                        <li><a href="/#about">Sobre Nosotros</a></li>
+                        <li><a href="/#products">Productos Destacados</a></li>
+                        <li class="dropdown">
+                            <a href="/store"
+                                ><span>Productos</span>
+                                <i
+                                    class="bi bi-chevron-down dropdown-indicator"
+                                ></i
+                            ></a>
+                            <ul class="header-categories"></ul>
+                        </li>
+                        <li><a href="/#contact">Contáctanos</a></li>
+                    </ul>
+                </nav>
+                <!-- .navbar -->
+
+                <a class="btn-book-a-table" href="/store">Tienda</a>
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- ======= Main ======= -->
+        <main id="main">
+            <div class="breadcrumbs">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <p>Productos en <span class="title"></span></p>
+                    </div>
+
+                    <div class="card-container row gy-5"></div>
+                </div>
+            </div>
+        </main>
+        <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <i class="bi bi-geo-alt icon"></i>
+                        <div>
+                            <h4>Direccion</h4>
+                            <p>Cucuta</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links d-flex">
+                        <i class="bi bi-telephone icon"></i>
+                        <div>
+                            <h4>Pedidos</h4>
+                            <p>
+                                <strong>Phone:</strong> 310 1234567<br />
+                                <strong>Email:</strong> correo@example.com<br />
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links d-flex">
+                        <i class="bi bi-clock icon"></i>
+                        <div>
+                            <h4>Horario</h4>
+                            <p>Lunes - Sábado</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Síguenos</h4>
+                        <div class="social-links d-flex">
+                            <a href="#" class="facebook"
+                                ><i class="bi bi-facebook"></i
+                            ></a>
+                            <a href="#" class="instagram"
+                                ><i class="bi bi-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>JJ. Store</span></strong
+                    >. Reserva los derechos
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <a
+            href="#"
+            class="scroll-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <div id="preloader"></div>
+
+        <!-- Vendor JS Files -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Page JS Files -->
+        <script src="/assets/js/components/aos.js"></script>
+        <script src="/assets/js/components/loader.js"></script>
+        <script src="/assets/js/components/header.js"></script>
+        <script src="/assets/js/components/scroll.js"></script>
+        <script src="/assets/js/store.js" type="module"></script>
     </body>
 </html>

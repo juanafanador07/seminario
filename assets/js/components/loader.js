@@ -4,4 +4,8 @@ if (preloader) {
     window.addEventListener("load", () => {
         preloader.remove();
     });
+
+    setTimeout(() => {
+        preloader.remove();
+    }, 5000);
 }
