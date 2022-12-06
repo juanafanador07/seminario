@@ -1,393 +1,291 @@
 [
     {
-        "name": "Categoría 1",
+        "name": "Lápices y delineadores de ojos",
         "products": [
             {
-                "name": "Producto 1",
-                "description": "Descripcion Producto 1",
-                "price": 13422,
-                "image": "https://dummyimage.com/100x100.png/5fa2dd/ffffff"
+                "name": "Lápiz de ojos",
+                "description": "Marca Yanbal, excelente calidad, consistencia cremosa",
+                "price": 16000,
+                "image": "lapiz-de-ojos.jpg"
             },
             {
-                "name": "Producto 2",
-                "description": "Descripcion Producto 2",
-                "price": 66862,
-                "image": "https://dummyimage.com/225x100.png/cc0000/ffffff"
+                "name": "Delineador líquido",
+                "description": "Marca Avon, punta fina",
+                "price": 26000,
+                "image": "delineador-liquido.jpg"
+            },
+            {
+                "name": "Delineador de ojos Una",
+                "description": "Marca natura, varios productos",
+                "price": 66000,
+                "image": "delineador-de-ojos-una.jpg"
             }
         ]
     },
     {
-        "name": "Categoría 2",
+        "name": "Máscaras de pestañas",
         "products": [
             {
-                "name": "Producto 3",
-                "description": "Descripcion Producto 3",
-                "price": 95940,
-                "image": "https://dummyimage.com/115x100.png/ff4444/ffffff"
+                "name": "Volume Mascara",
+                "description": "Beauty Model",
+                "price": 6000,
+                "image": "volume-mascara.jpg"
             },
             {
-                "name": "Producto 4",
-                "description": "Descripcion Producto 4",
-                "price": 28498,
-                "image": "https://dummyimage.com/220x100.png/5fa2dd/ffffff"
+                "name": "Falsies Lash Lift",
+                "description": "Pestañina Maybelline WTP-Very Black",
+                "price": 36000,
+                "image": "falsies-lash-lift.jpg"
             },
             {
-                "name": "Producto 5",
-                "description": "Descripcion Producto 5",
-                "price": 83086,
-                "image": "https://dummyimage.com/228x100.png/dddddd/000000"
+                "name": "Lash Sensational",
+                "description": "Maybelline Lavable",
+                "price": 32000,
+                "image": "lash-sensational.jpg"
             },
             {
-                "name": "Producto 6",
-                "description": "Descripcion Producto 6",
-                "price": 23966,
-                "image": "https://dummyimage.com/107x100.png/cc0000/ffffff"
+                "name": "Pestañina Ruby Rose",
+                "description": "6 referencias distintas",
+                "price": 16000,
+                "image": "pestanina-ruby-rose.png"
             },
             {
-                "name": "Producto 7",
-                "description": "Descripcion Producto 7",
-                "price": 70670,
-                "image": "https://dummyimage.com/184x100.png/5fa2dd/ffffff"
+                "name": "Curvas Perfectas",
+                "description": "Pestañina Vogue Mascara",
+                "price": 19000,
+                "image": "curvas-perfectas.jpg"
             },
             {
-                "name": "Producto 8",
-                "description": "Descripcion Producto 8",
-                "price": 96760,
-                "image": "https://dummyimage.com/109x100.png/dddddd/000000"
-            },
-            {
-                "name": "Producto 9",
-                "description": "Descripcion Producto 9",
-                "price": 30089,
-                "image": "https://dummyimage.com/196x100.png/cc0000/ffffff"
-            },
-            {
-                "name": "Producto 10",
-                "description": "Descripcion Producto 10",
-                "price": 72387,
-                "image": "https://dummyimage.com/207x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 11",
-                "description": "Descripcion Producto 11",
-                "price": 97675,
-                "image": "https://dummyimage.com/227x100.png/cc0000/ffffff"
-            },
-            {
-                "name": "Producto 12",
-                "description": "Descripcion Producto 12",
-                "price": 12488,
-                "image": "https://dummyimage.com/124x100.png/ff4444/ffffff"
+                "name": "Volume Maker",
+                "description": "Pestañina Max Factor",
+                "price": 23000,
+                "image": "volume-maker.webp"
             }
         ]
     },
     {
-        "name": "Categoría 3",
+        "name": "Sombras para ojos",
         "products": [
             {
-                "name": "Producto 13",
-                "description": "Descripcion Producto 13",
-                "price": 82813,
-                "image": "https://dummyimage.com/240x100.png/dddddd/000000"
+                "name": "Paleta de sombras tonos claros",
+                "description": "Con colores metalizados",
+                "price": 25000,
+                "image": "paleta-de-sombras-tonos-claros.jpg"
             },
             {
-                "name": "Producto 14",
-                "description": "Descripcion Producto 14",
-                "price": 50188,
-                "image": "https://dummyimage.com/178x100.png/cc0000/ffffff"
+                "name": "Paleta de sombras colores calidos",
+                "description": "Blushbar",
+                "price": 28000,
+                "image": "paleta-de-sombras-colores-calidos.webp"
             },
             {
-                "name": "Producto 15",
-                "description": "Descripcion Producto 15",
-                "price": 51490,
-                "image": "https://dummyimage.com/146x100.png/dddddd/000000"
+                "name": "Paletas de sombras colores variados",
+                "description": "Dos paletas, colores tierra y colores vivos",
+                "price": 53000,
+                "image": "paletas-de-sombras-colores-variados.jpg"
             },
             {
-                "name": "Producto 16",
-                "description": "Descripcion Producto 16",
-                "price": 86299,
-                "image": "https://dummyimage.com/233x100.png/cc0000/ffffff"
-            },
-            {
-                "name": "Producto 17",
-                "description": "Descripcion Producto 17",
-                "price": 45375,
-                "image": "https://dummyimage.com/158x100.png/cc0000/ffffff"
+                "name": "Paleta de sombras 'Dusk eyesshadow'",
+                "description": "Huda Beauty",
+                "price": 97000,
+                "image": "paleta-de-sombras-dusk-eyesshadow.jpg"
             }
         ]
     },
     {
-        "name": "Categoría 4",
+        "name": "Rubores",
         "products": [
             {
-                "name": "Producto 18",
-                "description": "Descripcion Producto 18",
-                "price": 62125,
-                "image": "https://dummyimage.com/145x100.png/dddddd/000000"
+                "name": "Rubor en crema",
+                "description": "Rubor en gel Mary Kay",
+                "price": 52000,
+                "image": "rubor-en-crema.jpg"
             },
             {
-                "name": "Producto 19",
-                "description": "Descripcion Producto 19",
-                "price": 80867,
-                "image": "https://dummyimage.com/247x100.png/5fa2dd/ffffff"
+                "name": "Rubor Oiseaux",
+                "description": "4 tonos para elegir",
+                "price": 20000,
+                "image": "rubor-oiseaux.jpg"
             },
             {
-                "name": "Producto 20",
-                "description": "Descripcion Producto 20",
-                "price": 41580,
-                "image": "https://dummyimage.com/239x100.png/cc0000/ffffff"
-            },
-            {
-                "name": "Producto 21",
-                "description": "Descripcion Producto 21",
-                "price": 18089,
-                "image": "https://dummyimage.com/139x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 22",
-                "description": "Descripcion Producto 22",
-                "price": 29048,
-                "image": "https://dummyimage.com/141x100.png/cc0000/ffffff"
-            },
-            {
-                "name": "Producto 23",
-                "description": "Descripcion Producto 23",
-                "price": 14248,
-                "image": "https://dummyimage.com/196x100.png/ff4444/ffffff"
-            },
-            {
-                "name": "Producto 24",
-                "description": "Descripcion Producto 24",
-                "price": 53732,
-                "image": "https://dummyimage.com/172x100.png/ff4444/ffffff"
-            },
-            {
-                "name": "Producto 25",
-                "description": "Descripcion Producto 25",
-                "price": 65488,
-                "image": "https://dummyimage.com/107x100.png/ff4444/ffffff"
-            },
-            {
-                "name": "Producto 26",
-                "description": "Descripcion Producto 26",
-                "price": 29621,
-                "image": "https://dummyimage.com/183x100.png/dddddd/000000"
+                "name": "Rubor Super Fantastic",
+                "description": "Vogue, color de larga duracion",
+                "price": 31000,
+                "image": "rubor-super-fantastic.webp"
             }
         ]
     },
     {
-        "name": "Categoría 5",
+        "name": "Polvos Faciales y Bases",
         "products": [
             {
-                "name": "Producto 27",
-                "description": "Descripcion Producto 27",
-                "price": 19323,
-                "image": "https://dummyimage.com/193x100.png/cc0000/ffffff"
+                "name": "Polvo translucido suelto",
+                "description": "Polvo con acabados brillantes",
+                "price": 32000,
+                "image": "polvo-translucido-suelto.webp"
             },
             {
-                "name": "Producto 28",
-                "description": "Descripcion Producto 28",
-                "price": 6571,
-                "image": "https://dummyimage.com/134x100.png/dddddd/000000"
-            },
-            {
-                "name": "Producto 29",
-                "description": "Descripcion Producto 29",
-                "price": 6952,
-                "image": "https://dummyimage.com/187x100.png/cc0000/ffffff"
-            },
-            {
-                "name": "Producto 30",
-                "description": "Descripcion Producto 30",
-                "price": 7364,
-                "image": "https://dummyimage.com/218x100.png/dddddd/000000"
-            },
-            {
-                "name": "Producto 31",
-                "description": "Descripcion Producto 31",
-                "price": 84507,
-                "image": "https://dummyimage.com/238x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 32",
-                "description": "Descripcion Producto 32",
-                "price": 33442,
-                "image": "https://dummyimage.com/153x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 33",
-                "description": "Descripcion Producto 33",
-                "price": 50903,
-                "image": "https://dummyimage.com/102x100.png/ff4444/ffffff"
-            },
-            {
-                "name": "Producto 34",
-                "description": "Descripcion Producto 34",
-                "price": 5848,
-                "image": "https://dummyimage.com/206x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 35",
-                "description": "Descripcion Producto 35",
-                "price": 44153,
-                "image": "https://dummyimage.com/114x100.png/5fa2dd/ffffff"
+                "name": "Polvo traslucido matte touch",
+                "description": "Polvo matte para todo tipo de piel",
+                "price": 30000,
+                "image": "polvo-traslucido-matte-touch.webp"
             }
         ]
     },
     {
-        "name": "Categoría 6",
+        "name": "Concealer",
         "products": [
             {
-                "name": "Producto 36",
-                "description": "Descripcion Producto 36",
-                "price": 64849,
-                "image": "https://dummyimage.com/216x100.png/dddddd/000000"
+                "name": "Corrector multiusos",
+                "description": "Maybelline",
+                "price": 29000,
+                "image": "corrector-multiusos.webp"
             },
             {
-                "name": "Producto 37",
-                "description": "Descripcion Producto 37",
-                "price": 36116,
-                "image": "https://dummyimage.com/231x100.png/dddddd/000000"
-            },
-            {
-                "name": "Producto 38",
-                "description": "Descripcion Producto 38",
-                "price": 60009,
-                "image": "https://dummyimage.com/100x100.png/ff4444/ffffff"
-            },
-            {
-                "name": "Producto 39",
-                "description": "Descripcion Producto 39",
-                "price": 6246,
-                "image": "https://dummyimage.com/101x100.png/cc0000/ffffff"
-            },
-            {
-                "name": "Producto 40",
-                "description": "Descripcion Producto 40",
-                "price": 69053,
-                "image": "https://dummyimage.com/241x100.png/dddddd/000000"
-            },
-            {
-                "name": "Producto 41",
-                "description": "Descripcion Producto 41",
-                "price": 53043,
-                "image": "https://dummyimage.com/230x100.png/cc0000/ffffff"
+                "name": "Corrector de Ojeras",
+                "description": "Engol collection",
+                "price": 26000,
+                "image": "corrector-de-ojeras.jpg"
             }
         ]
     },
     {
-        "name": "Categoría 7",
+        "name": "Productos para el cabello",
         "products": [
             {
-                "name": "Producto 42",
-                "description": "Descripcion Producto 42",
-                "price": 34647,
-                "image": "https://dummyimage.com/201x100.png/5fa2dd/ffffff"
+                "name": "Hidra Hialuronico",
+                "description": "Shampoo-Hidra-Hialuronico-ELVIVE-680-ml",
+                "price": 34000,
+                "image": "hidra-hialuronico.webp"
+            },
+            {
+                "name": "Shampoo crecimiento magic hair",
+                "description": "Shampoo crecimiento magic hair",
+                "price": 34000,
+                "image": "shampoo-crecimiento-magic-hair.webp"
+            },
+            {
+                "name": "Pro V",
+                "description": "Shampoo Pantene Pro V",
+                "price": 38000,
+                "image": "pro-v.webp"
+            },
+            {
+                "name": "Johnson's baby cabello oscuro",
+                "description": "Shampoo para bebes no mas lagrimas",
+                "price": 34000,
+                "image": "johnsons-baby-cabello-oscuro.png"
+            },
+            {
+                "name": "Tinte Artic Fox",
+                "description": "Tinte Semipermanente colores fantasia",
+                "price": 124000,
+                "image": "tinte-artic-fox.jpg"
             }
         ]
     },
     {
-        "name": "Categoría 8",
+        "name": "Calzado Femenino",
         "products": [
             {
-                "name": "Producto 43",
-                "description": "Descripcion Producto 43",
-                "price": 46288,
-                "image": "https://dummyimage.com/218x100.png/cc0000/ffffff"
+                "name": "Tenis Femeninos",
+                "description": "Zapatos deportivos femeninos casuales",
+                "price": 53000,
+                "image": "tenis-femeninos-1.jpg"
+            },
+            {
+                "name": "Tenis Femeninos",
+                "description": "Zapatos deportivos femeninos casuales",
+                "price": 53000,
+                "image": "tenis-femeninos-2.jpg"
+            },
+            {
+                "name": "Tenis Femeninos",
+                "description": "Zapatos deportivos femeninos casuales",
+                "price": 53000,
+                "image": "tenis-femeninos-3.jpg"
+            },
+            {
+                "name": "Tenis Femeninos",
+                "description": "Zapatos deportivos femeninos casuales",
+                "price": 53000,
+                "image": "tenis-femeninos-4.jpg"
+            },
+            {
+                "name": "Tenis Femeninos",
+                "description": "Zapatos deportivos femeninos casuales",
+                "price": 53000,
+                "image": "tenis-femeninos-5.jpg"
             }
         ]
     },
     {
-        "name": "Categoría 9",
+        "name": "Calzado Masculino",
         "products": [
             {
-                "name": "Producto 44",
-                "description": "Descripcion Producto 44",
-                "price": 22565,
-                "image": "https://dummyimage.com/177x100.png/5fa2dd/ffffff"
+                "name": "Tenis Masculinos",
+                "description": "Zapatos deportivos masculinos casuales",
+                "price": 56000,
+                "image": "tenis-masculinos-1.jpg"
             },
             {
-                "name": "Producto 45",
-                "description": "Descripcion Producto 45",
-                "price": 21617,
-                "image": "https://dummyimage.com/183x100.png/5fa2dd/ffffff"
+                "name": "Tenis Masculinos",
+                "description": "Zapatos deportivos masculinos casuales",
+                "price": 56000,
+                "image": "tenis-masculinos-2.jpg"
             },
             {
-                "name": "Producto 46",
-                "description": "Descripcion Producto 46",
-                "price": 85871,
-                "image": "https://dummyimage.com/149x100.png/5fa2dd/ffffff"
+                "name": "Tenis Masculinos",
+                "description": "Zapatos deportivos masculinos casuales",
+                "price": 56000,
+                "image": "tenis-masculinos-3.jpg"
             },
             {
-                "name": "Producto 47",
-                "description": "Descripcion Producto 47",
-                "price": 38253,
-                "image": "https://dummyimage.com/106x100.png/ff4444/ffffff"
+                "name": "Tenis Masculinos",
+                "description": "Zapatos deportivos masculinos casuales",
+                "price": 56000,
+                "image": "tenis-masculinos-4.jpg"
             },
             {
-                "name": "Producto 48",
-                "description": "Descripcion Producto 48",
-                "price": 52884,
-                "image": "https://dummyimage.com/115x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 49",
-                "description": "Descripcion Producto 49",
-                "price": 36005,
-                "image": "https://dummyimage.com/156x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 50",
-                "description": "Descripcion Producto 50",
-                "price": 72463,
-                "image": "https://dummyimage.com/180x100.png/cc0000/ffffff"
+                "name": "Tenis Masculinos",
+                "description": "Zapatos deportivos masculinos casuales",
+                "price": 56000,
+                "image": "tenis-masculinos-5.jpg"
             }
         ]
     },
     {
-        "name": "Categoría 10",
+        "name": "Omnilife",
         "products": [
             {
-                "name": "Producto 51",
-                "description": "Descripcion Producto 51",
-                "price": 19465,
-                "image": "https://dummyimage.com/222x100.png/5fa2dd/ffffff"
+                "name": "Fiber'N plus supreme",
+                "description": "Producto Omnilife",
+                "price": 79000,
+                "image": "fibern-plus-supreme.png"
             },
             {
-                "name": "Producto 52",
-                "description": "Descripcion Producto 52",
-                "price": 80169,
-                "image": "https://dummyimage.com/203x100.png/dddddd/000000"
+                "name": "Magnus",
+                "description": "Producto Omnilife",
+                "price": 80000,
+                "image": "magnus.png"
             },
             {
-                "name": "Producto 53",
-                "description": "Descripcion Producto 53",
-                "price": 69812,
-                "image": "https://dummyimage.com/213x100.png/ff4444/ffffff"
+                "name": "Omniplus Frutas Supreme",
+                "description": "Producto Omnilife",
+                "price": 69000,
+                "image": "omniplus-frutas-supreme.png"
             },
             {
-                "name": "Producto 54",
-                "description": "Descripcion Producto 54",
-                "price": 95695,
-                "image": "https://dummyimage.com/122x100.png/5fa2dd/ffffff"
+                "name": "Dolce Vita",
+                "description": "Producto Omnilife",
+                "price": 95000,
+                "image": "dolce-vita.png"
             },
             {
-                "name": "Producto 55",
-                "description": "Descripcion Producto 55",
-                "price": 21182,
-                "image": "https://dummyimage.com/100x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 56",
-                "description": "Descripcion Producto 56",
-                "price": 69841,
-                "image": "https://dummyimage.com/180x100.png/5fa2dd/ffffff"
-            },
-            {
-                "name": "Producto 57",
-                "description": "Descripcion Producto 57",
-                "price": 72160,
-                "image": "https://dummyimage.com/162x100.png/cc0000/ffffff"
+                "name": "Power Maker Supreme",
+                "description": "Producto Omnilife",
+                "price": 81000,
+                "image": "power-maker-supreme.png"
             }
         ]
     }
