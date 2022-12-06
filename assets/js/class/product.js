@@ -6,6 +6,10 @@ export class Product {
             style: "currency",
             currency: "COP",
         });
-        this.image = product.image;
+        if (product.image.startsWith("http")) {
+            this.image = product.image;
+        } else {
+            this.image = `/assets/img/products/${product.image}`;
+        }
     }
 }

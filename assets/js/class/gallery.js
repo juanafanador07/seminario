@@ -26,11 +26,13 @@ export class Gallery {
                 <img
                     src="${product.image}"
                     class="products-img img-fluid"
-                    alt=""
+                    alt="${product.name}"
                 />
-                <h4 class="name">${product.name}</h4>
-                <p class="description">${product.description}</p>
-                <p class="price">${product.price}</p>
+                <div class="products-content container m-4">
+                    <h4 class="name text-center m-2">${product.name}</h4>
+                    <p class="description m-2">${product.description}</p>
+                    <p class="price m-2">${product.price}</p>
+                </div>
             </div>
         `;
     }

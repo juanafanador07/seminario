@@ -58,13 +58,14 @@ function printCategory(category) {
                 <img
                     class="card-img-top"
                     src="${product.image}"
+                    alt="${product.name}"
                 />
-                <div class="card-body text-center">
-                    <h2 class="card-title">${product.name}</h2>
-                    <p class="card-text">${product.description}</p>
-                    <a 
-                        href="https://api.whatsapp.com/send/?phone=573108017447&text=Hola, quisiera comprar ${product.name}"
-                        class="btn btn-primary">${product.price}</a>
+                <div class="card-body d-flex flex-column align-items-center justify-content-between">
+                    <h2 class="card-title text-center">${product.name}</h2>
+                    <p class="card-text my-3">${product.description}</p>
+                    <a
+                        href="https://api.whatsapp.com/send/?phone=573102984941&text=Hola, quisiera comprar un ${product.name}"
+                        class="btn btn-primary card-link text-center">${product.price}</a>
                 </div>
             </div>`;
     });
